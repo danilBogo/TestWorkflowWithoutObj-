@@ -1,0 +1,24 @@
+# Visual Studio 2014 CTP
+**/*.sln.ide
+
+# Visual Studio temp something
+.vs/
+
+# dotnet stuff
+project.lock.json
+
+# VS 2015+
+*.vc.vc.opendb
+*.vc.db
+
+
+# Rider
+.idea/
+obj
+bin
+
+# Visual Studio Code
+.vscode/
+
+bin
+obj
