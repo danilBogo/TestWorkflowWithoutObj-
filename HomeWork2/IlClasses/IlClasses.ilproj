@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk.IL">
-
-    <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>IlClasses</RootNamespace>
-        <MicrosoftNetCoreIlasmPackageVersion>6.0.0</MicrosoftNetCoreIlasmPackageVersion>
-        <ProduceReferenceAssembly>..\IlClasses\obj\Debug\net6.0\</ProduceReferenceAssembly>
-    </PropertyGroup>
-</Project>
