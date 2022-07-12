@@ -4,6 +4,6 @@
         <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>IlClasses</RootNamespace>
         <MicrosoftNetCoreIlasmPackageVersion>6.0.0</MicrosoftNetCoreIlasmPackageVersion>
-        <TargetRefPath>..\IlClasses\obj\Debug\net6.0\IlClasses.dll</TargetRefPath>
+        <ProduceReferenceAssembly>..\IlClasses\obj\Debug\net6.0\</ProduceReferenceAssembly>
     </PropertyGroup>
 </Project>
