@@ -4,9 +4,6 @@
         <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>IlClasses</RootNamespace>
         <MicrosoftNetCoreIlasmPackageVersion>6.0.0</MicrosoftNetCoreIlasmPackageVersion>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <BaseIntermediateOutputPath>..\IlClasses\obj\</BaseIntermediateOutputPath>
-        <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(Configuration)\</IntermediateOutputPath>
+        <TargetRefPath>..\IlClasses\obj\Debug\net6.0\IlClasses.dll</TargetRefPath>
     </PropertyGroup>
 </Project>
