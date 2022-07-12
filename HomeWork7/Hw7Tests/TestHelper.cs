@@ -32,7 +32,7 @@ public static class TestHelper
     {
         try
         {
-            return GetLabelForProperty(html, propertyName).SelectNodes("../span").First().InnerHtml.Replace("\r\n", "");
+            return GetLabelForProperty(html, propertyName).SelectNodes("../span").First().InnerHtml.Replace("\r", string.Empty).Replace("\n", string.Empty);
         }
         catch (ArgumentNullException)
         {
@@ -41,7 +41,7 @@ public static class TestHelper
     }
 
     public static string GetPropertyNameFromLabel(string html, string propertyName)
-        => GetLabelForProperty(html, propertyName).InnerHtml.Replace("\r\n", "");
+        => GetLabelForProperty(html, propertyName).InnerHtml.Replace("\r", string.Empty).Replace("\n", string.Empty);
 
     public static async Task<string> SendForm(HttpClient client, string url, BaseModel model)
     {
