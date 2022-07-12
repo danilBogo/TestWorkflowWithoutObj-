@@ -1,0 +1,9 @@
+@using Homework7.MyHtmlServices
+@model Homework7.Models.TestModel
+
+@using (Html.BeginForm())
+{
+    @Html.MyEditorForModel()
+    <button type="submit" class="btn btn-primary mt-2">Sign up</button>
+}
+
