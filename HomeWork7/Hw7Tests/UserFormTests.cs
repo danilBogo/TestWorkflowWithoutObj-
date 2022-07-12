@@ -31,7 +31,7 @@ public class UserFormTests : IClassFixture<WebApplicationFactory<Program>>
         var actual = TestHelper.GetInputTypeForProperty(response, propertyName);
 
         //assert
-        Assert.Equal(actual, expectedType);
+        Assert.Equal(expectedType, actual);
     }
 
     [Fact]
@@ -62,7 +62,7 @@ public class UserFormTests : IClassFixture<WebApplicationFactory<Program>>
         var actual = TestHelper.GetPropertyNameFromLabel(response, propertyName);
 
         //assert
-        Assert.Equal(actual, expected);
+        Assert.Equal(expected, actual);
     }
 
     [Theory]
@@ -81,7 +81,7 @@ public class UserFormTests : IClassFixture<WebApplicationFactory<Program>>
         var actual = TestHelper.GetValidationMessageFromSpan(response, propertyName);
 
         //assert
-        Assert.Equal(actual, expected);
+        Assert.Equal(expected, actual);
     }
     
     [Theory]
@@ -100,6 +100,6 @@ public class UserFormTests : IClassFixture<WebApplicationFactory<Program>>
         var actual = TestHelper.GetValidationMessageFromSpan(response, propertyName);
     
         //assert
-        Assert.Equal(actual, expected);
+        Assert.Equal(expected, actual);
     }
 }
