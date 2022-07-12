@@ -43,7 +43,7 @@ public class UserFormTests : IClassFixture<WebApplicationFactory<Program>>
         //act
         var actual = TestHelper.TryGetSelect(response, "Sex");
 
-        //assertцуцуцуц
+        //assert
         Assert.True(actual);
     }
     
